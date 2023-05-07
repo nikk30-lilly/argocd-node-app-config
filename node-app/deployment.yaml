@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: node-app
-          image: nikk3008/examplenode-dev:12
+          image: nikk3008/examplenode-dev:13
           ports:
             - containerPort: 3000
