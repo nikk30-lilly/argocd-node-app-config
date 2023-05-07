@@ -7,10 +7,10 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/gboie/argocd-node-app-config.git
+    repoURL: https://github.com/nikk30-lilly/argocd-node-app-config.git
     targetRevision: HEAD
     path: node-app
-  destination: 
+  destination:
     server: https://kubernetes.default.svc
     namespace: node-app
 
